@@ -1,0 +1,25 @@
+{
+  "name": "js-new-toys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikachan/js-new-toys.git"
+  },
+  "author": "Sarah Norris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikachan/js-new-toys/issues"
+  },
+  "homepage": "https://github.com/mikachan/js-new-toys#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.13",
+    "babel-preset-env": "^1.7.0"
+  }
+}
